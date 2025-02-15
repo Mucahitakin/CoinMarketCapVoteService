@@ -42,7 +42,7 @@ def get_random_user_agent():
 
 def send_vote(crypto_id, vote_option):
     url = "https://api.coinmarketcap.com/gravity/v3/gravity/crypto/vote"
-    urlm = f"https://api.scraperapi.com?api_key=07447c3497a49987da97e98e6d8f7dc6&url={url}"
+    urlm = f"https://api.scraperapi.com?api_key=&url={url}"
 
     headers = {
         "accept": "application/json, text/plain, */*",
